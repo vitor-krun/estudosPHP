@@ -1,3 +1,4 @@
+<?= get('message');?>
 <div class="card">
     <div class="card-header text-center">
         <h2>Contato</h2>
@@ -21,13 +22,13 @@
 
             <div class="form-group form-floating mb-4">
                 <textarea class="form-control" name="message" id="message" cols="30" rows="10" 
-                    placeholder="Digite sua mensagem" style="height: 200px"></textarea>
+                    placeholder="Digite sua mensagem" style="height: 200px; resize: none;"></textarea>
                 <label for="message" class="form-label">Mensagem:</label>
             </div>
             <hr>
             <div class="d-grid gap-2 col-6 mx-auto">
                 <button type="submit" class="btn btn-outline-primary">Enviar Mensagem</button>
-            <!-- <a class="btn btn-outline-danger" href="#"></a> -->
+                <!-- <button type="button" class="btn btn-outline-danger">Cancelar</button> -->
             </div>
         </form>
     </div>
