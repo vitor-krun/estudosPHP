@@ -6,9 +6,8 @@ function flash($key, $message, $type)
         $type = 'danger';
     }
     if (!isset ($_SESSION['flash'][$key])) {
-        // $_SESSION['flash'][$key] = '<span class="alert alert-' . $type . '">' . $message . '</span>';
-        $_SESSION['flash'][$key] = '
-        <div class="alert alert-' . $type . ' alert-dismissible fade show" role="alert">' . $message . '
+        $_SESSION['flash'][$key] =
+        '<div class="alert alert-' . $type . ' alert-dismissible fade show" role="alert"><strong>' . $message . '<strong>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>';
     }
