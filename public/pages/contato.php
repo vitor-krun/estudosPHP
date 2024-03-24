@@ -27,7 +27,7 @@
             </div>
             <hr>
             <div class="d-grid gap-2 col-6 mx-auto">
-                <button type="submit" class="btn btn-outline-primary">Enviar Mensagem</button>
+                <button type="submit" class="btn btn-outline-primary">Enviar</button>
                 <!-- <button type="button" class="btn btn-outline-danger">Cancelar</button> -->
             </div>
         </form>
